@@ -9,7 +9,7 @@ function setup() {
     createCanvas(400, 400);
     w = floor(width / rez);
     h = floor(height / rez);
-    frameRate(15);
+    frameRate(5);
     snake = new Snake();
     foodLocation();
     }
